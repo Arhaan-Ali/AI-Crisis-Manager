@@ -27,7 +27,7 @@ AI-Crisis-Manager is a multi agent prompt engineering based Project made to aid 
     Final reviewer that integrates all outputs and generates the consolidated response for human decision-makers.
 
 
-## 🧩 Agents
+## Agents
 
 Each agent has a distinct role and uses a custom prompt to guide its behavior:
 
@@ -42,7 +42,7 @@ Each agent has a distinct role and uses a custom prompt to guide its behavior:
 ## Estimated Token Usage per Agent
 
 
-| 🧠 Agent                  | 📝 Prompt Type                  | 🔤 Prompt Tokens | 📥 Expected Input Tokens | 📦 Total Tokens Per Cycle |
+| Agent                    |  Prompt Type                     |   Prompt Tokens  |   Expected Input Tokens   |   Total Tokens Per Cycle   |
 |--------------------------|----------------------------------|------------------|---------------------------|----------------------------|
 | Summarizer Agent         | Instruction + Sample             | ~250             | ~2,000 (report input)     | ~2,250                     |
 | Risk Assessor Agent      | Risk schema + guidelines         | ~300             | ~1,500 (from summarizer)  | ~1,800                     |
